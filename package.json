@@ -1,0 +1,24 @@
+{
+  "name": "simple-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "spc": "./bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "simple"
+  ],
+  "author": "lcc",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^11.0.0"
+  }
+}
