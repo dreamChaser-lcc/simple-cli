@@ -11,6 +11,15 @@ commander
     // require("../lib/create")(projectName, cmd);
   });
 
+program
+  .command("config [value]")
+  .description("inspect and modify the config")
+  .option("-g, --get <key>", "get value by key")
+  .option("-s, --set <key> <value>", "set option[key] is value")
+  .option("-d, --delete <key>", "delete option by key")
+  .action((value, keys) => {
+    console.log(value, keys);
+  });
 // 解析
 commander.parse(process.argv);
 // console.log("🚀 ~ file: index.js:16 ~ process:", process)
