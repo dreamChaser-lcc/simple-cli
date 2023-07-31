@@ -19,6 +19,7 @@
   "author": "lcc",
   "license": "ISC",
   "devDependencies": {
-    "commander": "^11.0.0"
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1"
   }
 }

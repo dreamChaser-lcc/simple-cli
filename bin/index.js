@@ -8,7 +8,7 @@ commander
   .action((projectName, cmd) => {
     console.log('我执行创建脚本啦~',projectName, cmd);
     // 处理用户输入create 指令附加的参数
-    // require("../lib/create")(projectName, cmd);
+    require("../lib/create")(projectName, cmd);
   });
 
 program
